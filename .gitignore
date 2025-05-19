@@ -1,0 +1,25 @@
+# Nextflow typical .gitignore
+
+# Ignore execution and cache directories
+work/
+.results/
+output/
+.nextflow*
+pipeline_info/
+reports/
+*.html
+*.log
+
+# Ignore temporary/intermediate files
+*.tmp
+*.sam
+*.bam
+*.bai
+*.vcf
+*.fai
+*.gz
+*.zip
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
